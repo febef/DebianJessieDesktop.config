@@ -1,7 +1,7 @@
 DebianJessieDesktop.config
 ==========================
 My Debian Testing (Jessie) Desktop packages install and configurations.
-####First of all the repocitorios:
+####First of all the repo:
 
     deb http://ftp.us.debian.org/debian/ testing main non-free contrib
     deb-src http://ftp.us.debian.org/debian/ testing main non-free contrib
