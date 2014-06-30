@@ -85,7 +85,7 @@ then run:
     samba cifs
 ######Editors Ofimatica
 
-    libreoffice vim vim-gtk gnuplot bc dc textmaker textlive-base textlive-base textlive-extra
+    libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra
 ######IRC FCB GTL chats...
     irssi 
 ######Network Manager
