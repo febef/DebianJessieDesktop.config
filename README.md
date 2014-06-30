@@ -90,10 +90,10 @@ Then run:
     libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
 ######IRC FCB GTL chats...
 
-    irssi bitbee
+    irssi bitlbee
 ######Network Manager
 
     wicd wicd-gtk wicd-curses wireless-tools
 ######Terminal Other apps
 
-    tmux tree terminator puty supercat 
+    tmux tree terminator putty supercat 
