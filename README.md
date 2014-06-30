@@ -51,19 +51,26 @@ aptitude install...
 
     flashplugin-nonfree
     icedtea-6-plugin openjdk-6-jre
-######Package manager...
+######Package manager and config system
 
-    gdebi synaptic
+    gdebi synaptic dconfig system-config-printer
 ######Internet
 
-    iceweasel qbittorrent 
+    iceweasel qbittorrent chromiun chromiun-inspector chromiunm-l10n nmap
 ######Multimedia
 
-    mpd mpc ncmpcpp soundconverter sound-juicier audacity
+    mpd mpc ncmpcpp soundconverter sound-juicer audacity
     smplayer
+    gimp mirage
+* Pulseaudio
+
+    pulseaudio pavucontrol pavumeter pulseaudio-equalizer
+######Burn cd dvd etc
+
+    k3b brasero-cdrkit
 ######Config and system tools
 
-    dconf-editor gparted 
+    dconf-editor gparted ntfs-3g ntfsprogs
 ######Programin compile tools
 
     build-essential
@@ -76,4 +83,13 @@ then run:
 ######Share files
 
     samba cifs
-  
+######Editors Ofimatica
+
+    libreoffice vim vim-gtk gnuplot bc dc textmaker textlive-base textlive-base textlive-extra
+######IRC FCB GTL chats...
+    irssi 
+######Network Manager
+
+    wicd wicd-gtk wicd-curses wireless-tools
+######Terminal Other apps
+    tmux tree terminator puty supercat 
