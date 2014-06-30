@@ -53,18 +53,20 @@ aptitude install...
     icedtea-6-plugin openjdk-6-jre
 ######Package manager and config system
 
-    gdebi synaptic dconfig system-config-printer
+    gdebi synaptic dconfig system-config-printer lxappearence gnome-system-monitor gnome-disks
 ######Internet
 
     iceweasel qbittorrent chromiun chromiun-inspector chromiunm-l10n nmap
 ######Multimedia
 
-    mpd mpc ncmpcpp soundconverter sound-juicer audacity
-    smplayer
-    gimp mirage
+    mpd mpc ncmpcpp soundconverter sound-juicer audacity alsa-tools
+    smplayer cheese camorama
+    gimp mirage inkscape
 * Pulseaudio
 
-    pulseaudio pavucontrol pavumeter pulseaudio-equalizer
+
+        pulseaudio pavucontrol pavumeter pulseaudio-equalizer
+
 ######Burn cd dvd etc
 
     k3b brasero-cdrkit
@@ -77,19 +79,21 @@ aptitude install...
 ######Sensors
 
     lm-sensors hddtemp
-then run:
+Then run:
 
     sensors-detect
 ######Share files
 
-    samba cifs
+    samba cifs-utils cifs
 ######Editors Ofimatica
 
-    libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra
+    libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
 ######IRC FCB GTL chats...
-    irssi 
+
+    irssi bitbee
 ######Network Manager
 
     wicd wicd-gtk wicd-curses wireless-tools
 ######Terminal Other apps
+
     tmux tree terminator puty supercat 
