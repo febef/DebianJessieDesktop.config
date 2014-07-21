@@ -21,6 +21,57 @@ My Debian Testing (Jessie) Desktop packages install and configurations.
     deb http://www.deb-multimedia.org/ testing main non-free
     deb-src http://www.deb-multimedia.org/ testing main non-free
 
+or stable""
+
+    # Repositorios Básicos y oficiales estable
+    deb http://ftp.fr.debian.org/debian/ wheezy main contrib non-free 
+    deb-src http://ftp.fr.debian.org/debian/ wheezy main contrib non-free 
+    
+    # Repositorio  actualizaciones de seguridad estable
+    deb http://security.debian.org/ wheezy/updates main contrib non-free 
+    deb-src http://security.debian.org/ wheezy/updates main contrib non-free 
+    
+    # Wheezy-updates, previos conocidos como "Volatile" 
+    deb http://ftp.debian.org/debian wheezy-updates main contrib non-free
+    deb-src http://ftp.debian.org/debian wheezy-updates main contrib non-free
+    
+    # Repositorios Backports 
+    deb http://mirrors.kernel.org/debian wheezy-backports main contrib non-free 
+    deb-src http://mirrors.kernel.org/debian wheezy-backports main contrib non-free
+    
+    # Multimedia estable-wheezy  
+    deb http://www.deb-multimedia.org wheezy main non-free 
+    deb-src http://www.deb-multimedia.org/ wheezy main non-free 
+    
+    # Repositorio Spotify nativo 
+    deb http://repository.spotify.com stable non-free 
+    
+    # Repositorio de Nuvola Player 
+    deb http://ppa.fenryxo.cz/nuvola-player/ wheezy main 
+    deb-src http://ppa.fenryxo.cz/nuvola-player/ wheezy main 
+        
+    # Repositorio VirtualBox Debian Wheezy 
+    deb http://download.virtualbox.org/virtualbox/debian wheezy contrib non-free
+    
+    # Repositorio de Google Chrome 
+    deb http://dl.google.com/linux/deb/ stable main 
+    
+    # Repositorio de Escritorio "Mate" (gnome 2) 
+    deb http://packages.mate-desktop.org/repo/debian wheezy main
+
+stable keys?:
+
+
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 98AB5139
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 706C220A 
+
+
+    sudo gpg --keyserver hkp://subkeys.pgp.net --recv-keys A040830F7FAC5991
+    sudo gpg --export --armor A040830F7FAC5991 | sudo apt-key add -
+    sudo apt-get update
+
+
 Then run:
 
     aptitude update; aptitude upgrade
