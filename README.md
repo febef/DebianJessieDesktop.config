@@ -104,7 +104,8 @@ aptitude install...
     icedtea-6-plugin openjdk-6-jre
 ####Package manager and config system
 
-    gdebi synaptic dconfig system-config-printer lxappearence gnome-system-monitor "gnome-disks"dconf-editor gparted ntfs-3g ntfsprogs
+    gdebi synaptic xnetcardconfig   system-config-printer lxappearance gnome-system-monitor  gparted ntfs-3g ntfsprogs gnome-disk-utility 
+
 ####Internet
 
     iceweasel qbittorrent chromiun chromiun-inspector chromiunm-l10n nmap
