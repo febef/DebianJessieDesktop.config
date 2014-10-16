@@ -108,7 +108,7 @@ aptitude install...
 
 ####Internet
 
-    iceweasel qbittorrent chromiun chromiun-inspector chromiunm-l10n nmap
+    iceweasel qbittorrent chromium chromium-inspector chromium-l10n nmap
     
 ######IRC FCB GTL chats...
 
@@ -151,7 +151,7 @@ Then run:
     k3b brasero-cdrkit
 ####Programin compile tools
 
-    build-essential
+    
 ####Sensors
 
     lm-sensors hddtemp
@@ -170,4 +170,4 @@ Then run:
     wicd wicd-gtk wicd-curses wireless-tools
 ####Terminal Other apps
 
-    tmux tree terminator putty supercat 
+    tmux tree terminator putty supercat htop
