@@ -149,15 +149,7 @@ Then run:
 ####Burn cd dvd etc
 
     k3b brasero-cdrkit
-####Programin compile tools
 
-    
-####Sensors
-
-    lm-sensors hddtemp
-Then run:
-
-    sensors-detect
 ####Share files
 
     samba cifs-utils cifs
