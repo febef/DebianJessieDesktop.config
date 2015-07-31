@@ -75,3 +75,24 @@ To end:
 ####Other apps
 
     tmux tree terminator htop fish git build-essential synapse mongodb
+    
+##Configs
+
+####Terminal
+1» Change bash for fish, editing /etc/paswords
+
+2» Install powerline font as usperuser:
+
+        wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+        mv PowerlineSymbols.otf /usr/share/fonts/
+        fc-cache -vf
+        mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+
+3» Config files is cfgStretchTesting, make links
+
+        ln -s PATHTOREPO/StretchTesting/terminalCfg/.vimrc ~/.vimrc
+        # ln -s PATHTOREPO/StretchTesting/terminalCfg/.vimrc /root/.vimrc
+        ln -s PATHTOREPO/StretchTesting/terminalCfg/.tmux.conf ~/.tmux.conf
+        # mkdir -p /root/.config/fish/functions ~/.config/fish/functions
+        ln -s PATHTOREPO/StretchTesting/terminalCfg/fish_promp.fish ~/.config/fish/functions/fish_promp.fish
+        # ln -s PATHTOREPO/StretchTesting/terminalCfg/fish_promp.fish /root/.config/fish/functions/fish_promp.fish
