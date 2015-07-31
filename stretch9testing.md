@@ -51,14 +51,15 @@ To end:
     iceweasel qbittorrent chromium chromium-inspector chromium-l10n nmap
 
 ####Multimedia
-
-    moc soundconverter sound-juicer audacity alsa-tools smplayer camorama gimp mirage
+    
 ######Audio
 
+    alsa-tools a2jmidid alsaplayer-gtk alsaplayer-alsa alsaplayer-jack jackd2 jack-capture jack-midi-clock jack-mixer jack-tools jamin qjackctl patchage pulseaudio-module-jack ladish 
+    moc soundconverter sound-juicer audacity smplayer hydrogen rosegarden qsynth ardour4 zynaddsubfx yoshimi lmms fluid-soundfont-gm fluid-soundfont-gs
+    
+#####Imagen
 
-Then run:
-
-    usermod  -a -G pulse,pulse-access $(whoami)
+    camorama gimp mirage blender
 
 ####Burn cd dvd etc
 
@@ -71,6 +72,6 @@ Then run:
 
     libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
 
-####Terminal Other apps
+####Other apps
 
-    tmux tree terminator htop fish git build-essential
+    tmux tree terminator htop fish git build-essential synapse mongodb
