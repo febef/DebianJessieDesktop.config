@@ -74,7 +74,7 @@ To end:
 
 ####Other apps
 
-    tmux tree terminator htop fish git build-essential synapse mongodb
+    tmux tree terminator htop fish git build-essential synapse mongodb mc filezilla 
     
 ##Configs
 
