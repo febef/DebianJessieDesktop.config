@@ -1,0 +1,17 @@
+# Instalación Debian Buster
+
+HP envy 7
+
+### Network controller: Intel Corporation Wireless 7260 (rev c3)
+ wget -c https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-7260-ucode-25.30.14.0.tgz wget -c https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-7260-ucode-25.30.14.0.tgz
+>  wget -c https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-7260-ucode-25.30.14.0.tgz
+
+. Descomprimir:
+
+root@equipo:/# tar -xvzf iwlwifi-7260-ucode-25.30.14.0.tgz
+3. copiar controlador al volumen /lib/firmware
+
+root@equipo:/# cp iwlwifi-7260-ucode-25.30.14.0/iwlwifi-7260-14.ucode /lib/firmware/
+4. Reiniciar el equipo o ejecutar el siguiente comando:
+
+root@equipo:/# modprobe -r iwlwifi ; modprobe iwlwifi
