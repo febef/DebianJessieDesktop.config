@@ -2,6 +2,8 @@
 
 HP envy 7
 
+## Basics
+
 ### Network controller: Intel Corporation Wireless 7260 (rev c3)
   
   wget -c https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-7260-ucode-25.30.14.0.tgz
@@ -44,6 +46,12 @@ qbittorrent nmap
 
   libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
 
-#others 
+### others 
 
    wireless-tools tmux tree terminator supercat htop
+   
+   
+## next packages
+
+git python python-pip ctags build-essential
+
