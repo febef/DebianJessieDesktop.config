@@ -36,7 +36,13 @@ HP envy 7
 
 ### Internet
 
-qbittorrent nmap
+  qbittorrent nmap
+
+#### chrome
+
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  apt install ./google-chrome-stable_current_amd64.deb
+
 
 ### Share files Samba
 
@@ -44,12 +50,19 @@ qbittorrent nmap
   
 ### ofimatica
 
-  libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
+  apt install libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
+
+#### visual code
+
+  apt install software-properties-common apt-transport-https curl
+  curl -sSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+  add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+  apt update
+  apt install code
 
 ### others 
 
    wireless-tools tmux tree terminator supercat htop
-   
    
 ## next packages
 
