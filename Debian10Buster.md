@@ -68,3 +68,16 @@ HP envy 7
 
 git python python-pip ctags build-essential
 
+## Games
+
+  steam: download package from web, dpkg -i ; apt install -f
+  
+  wine for origin...
+  
+
+
+  
+  
+  
+
+
