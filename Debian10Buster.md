@@ -50,7 +50,7 @@ HP envy 7
   
 ### ofimatica
 
-  apt install libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-extra dia evince
+  apt install libreoffice vim vim-gtk gnuplot bc dc texmaker texlive-base texlive-base texlive-full dia evince
 
 #### visual code
 
