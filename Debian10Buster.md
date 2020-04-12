@@ -62,7 +62,7 @@ HP envy 7
 
 ### others 
 
-   wireless-tools tmux tree terminator supercat htop
+   wireless-tools tmux tree terminator supercat htop glances
    
 ## next packages
 
